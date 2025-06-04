@@ -17,20 +17,24 @@
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+The Ctrl+Scroll plugin enhances your IDE experience by allowing you to resize tool windows using the Ctrl key and mouse wheel.
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
+### Features:
+- Resize tool windows by holding Ctrl and scrolling the mouse wheel
+- Visual highlighting of the active tool window when Ctrl is pressed
+- Smooth animation effects for better visual feedback
+- Works with all tool windows (Project, Structure, Terminal, etc.)
 
-To keep everything working, do not remove `<!-- ... -->` sections. 
+Simply hold the Ctrl key, move your mouse over any tool window, and scroll to resize it. The tool window will be highlighted to indicate it's active for resizing.
 <!-- Plugin description end -->
 
 ## Installation
 
 - Using the IDE built-in plugin system:
-  
+
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "ctrl-scroll"</kbd> >
   <kbd>Install</kbd>
-  
+
 - Using JetBrains Marketplace:
 
   Go to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID) and install it by clicking the <kbd>Install to ...</kbd> button in case your IDE is running.
